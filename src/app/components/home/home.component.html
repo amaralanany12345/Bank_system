@@ -1,0 +1,17 @@
+<header>
+    <h2>{{user.username}}</h2>
+</header>
+
+<div class="contaner">
+
+    <ul>
+        <button (click)="transfer()">transfer money</button>
+        <button (click)="goToAllTransition()">all transtition</button>
+        <button (click)="showBalance()">show balance</button>
+        <button (click)="deposit()">deposit</button>
+        <button (click)="withdraw()">withdraw</button>
+        <button [disabled]="!isDept" (click)="deptDeposit()">dept deposit</button>
+        <button [disabled]="isDept" (click)="dept()">order dept </button>
+        <button (click)="deptDetails()"> dept details </button>
+    </ul>
+</div>

@@ -1,0 +1,12 @@
+<form [formGroup]="loginForm" (ngSubmit)="signin()">
+    <label>password</label><br/>
+    <input formControlName="password" type="text" placeholder="password" required/><br/>
+    <label>acount number</label><br/>
+    <input formControlName="acountNumber" type="text" placeholder="acount number" required/><br/>
+    <button type="submit">sign in </button>
+</form>
+<h2 [hidden]="!loggedIn">user not found</h2>
+<span>
+    <p>Do you not have account ?
+    <a (click)="goToSignUp()">sign up</a></p>
+</span>

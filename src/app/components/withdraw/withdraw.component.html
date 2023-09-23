@@ -1,0 +1,5 @@
+<form [formGroup]="withdrawFrom" (ngSubmit)="withdraw()">
+    <input type="text" placeholder="enter the value of withdraaw" formControlName="balance" required/>
+    <button type="submit">withdraw</button>
+</form>
+<h2 [hidden]="!acceptProcess" >balance is not enough</h2>

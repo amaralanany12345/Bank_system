@@ -1,0 +1,4 @@
+<form [formGroup]="depositForm" (ngSubmit)="deposit()">
+    <input formControlName="balance" type="text" placeholder="enter the value of deposit" required />
+    <button type="submit">deposit</button>
+</form>

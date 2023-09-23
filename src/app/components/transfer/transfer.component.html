@@ -1,0 +1,9 @@
+<form [formGroup]="transferForm" (ngSubmit)="transfer()">
+    <label>acount Number</label><br/>
+    <input formControlName="acountNumber" type="text" placeholder="acount naumber" required for/><br/>
+    <label>transfer value</label><br/>
+    <input formControlName="balance" type="number" placeholder="transfer value" /><br/>
+    <button type="submit">transfer</button>
+</form>
+<h2 [hidden]="!userExisted">user not found</h2>
+<h2 [hidden]="!transferAccepted">balance is not enough</h2>

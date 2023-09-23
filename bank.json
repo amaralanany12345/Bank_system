@@ -1,0 +1,244 @@
+{
+  "users": [
+    {
+      "username": "saad",
+      "email": "saad@gmail",
+      "password": "12345",
+      "number": "01205404472",
+      "id": 1,
+      "acountNumber": "1234567",
+      "balance": 8090
+    },
+    {
+      "username": "ali",
+      "email": "ali@gmail",
+      "password": "98765",
+      "number": "01203829314",
+      "id": 2,
+      "acountNumber": "534643",
+      "balance": 8085
+    },
+    {
+      "username": "ahmed",
+      "email": "ahmed@gmail",
+      "password": "54321",
+      "number": "01032058824",
+      "id": 3,
+      "acountNumber": "67486",
+      "balance": 6299
+    },
+    {
+      "username": "ammar",
+      "email": "ammar@gmail",
+      "password": "78910",
+      "number": "01208521768",
+      "id": 4,
+      "acountNumber": "89792408",
+      "balance": 10672
+    },
+    {
+      "username": "hany",
+      "email": "hany@gmail",
+      "password": "78913",
+      "number": "0509133734",
+      "id": 5,
+      "acountNumber": "7657654",
+      "balance": 498878
+    },
+    {
+      "username": "moaz",
+      "email": "moaz@gmail",
+      "password": "579687",
+      "number": "98578447",
+      "acountNumber": "98765",
+      "balance": 9500,
+      "id": 6
+    }
+  ],
+  "trasnfer": [
+    {
+      "payer": "1234567",
+      "reciever": "534643",
+      "transferValue": 20,
+      "id": 1
+    },
+    {
+      "payer": "1234567",
+      "reciever": "534643",
+      "transferValue": 20,
+      "id": 2
+    },
+    {
+      "payer": "1234567",
+      "reciever": "534643",
+      "transferValue": 25,
+      "id": 3
+    },
+    {
+      "payer": "1234567",
+      "reciever": "534643",
+      "transferValue": 20,
+      "id": 4
+    },
+    {
+      "payer": "89792408",
+      "reciever": "1234567",
+      "transferValue": 200,
+      "id": 5
+    },
+    {
+      "payer": "89792408",
+      "reciever": "1234567",
+      "transferValue": 100,
+      "id": 6
+    },
+    {
+      "payer": "534643",
+      "reciever": "1234567",
+      "transferValue": 90,
+      "id": 7
+    },
+    {
+      "payer": "534643",
+      "reciever": "1234567",
+      "transferValue": 90,
+      "id": 8
+    },
+    {
+      "payer": "1234567",
+      "reciever": "534643",
+      "transferValue": 900,
+      "date": "08/31/2023 12:49:57",
+      "id": 9
+    },
+    {
+      "payer": "1234567",
+      "reciever": "89792408",
+      "transferValue": 900,
+      "date": "08/31/2023 12:50:32",
+      "id": 10
+    },
+    {
+      "payer": "1234567",
+      "reciever": "89792408",
+      "transferValue": 900,
+      "date": "08/31/2023 12:51:55",
+      "id": 11
+    },
+    {
+      "payer": "89792408",
+      "reciever": "1234567",
+      "transferValue": 100,
+      "date": "08/31/2023 12:55:22",
+      "id": 12
+    },
+    {
+      "payer": "1234567",
+      "reciever": "534643",
+      "transferValue": 200,
+      "Date": "2023-09-02T09:49:26.728Z",
+      "id": 22
+    },
+    {
+      "payer": "1234567",
+      "reciever": "7657654",
+      "transferValue": 200,
+      "Date": "2023-09-04T08:13:13.210Z",
+      "id": 23
+    }
+  ],
+  "deptProcces": [
+    {
+      "accountNumber": "1234567",
+      "mainDeptValue": 5000,
+      "deptValue": 0,
+      "dueDate": "2024-09-05T09:05:37.191Z",
+      "id": 1,
+      "deptDeposit": 5000,
+      "deptDepositProcess": [
+        {
+          "deptValue": 400,
+          "deptDate": "2023-09-05T09:07:17.058Z"
+        },
+        {
+          "deptValue": 240,
+          "deptDate": "2023-09-05T09:07:50.558Z"
+        },
+        {
+          "deptValue": 530,
+          "deptDate": "2023-09-05T09:08:51.698Z"
+        },
+        {
+          "deptValue": 600,
+          "deptDate": "2023-09-05T09:12:08.254Z"
+        },
+        {
+          "deptValue": 30,
+          "deptDate": "2023-09-05T09:12:26.756Z"
+        },
+        {
+          "deptValue": 3200,
+          "deptDate": "2023-09-05T09:13:24.696Z"
+        }
+      ]
+    },
+    {
+      "accountNumber": "1234567",
+      "mainDeptValue": 3000,
+      "deptValue": 0,
+      "dueDate": "2024-09-05T09:20:19.801Z",
+      "id": 2,
+      "deptDepositProcess": [
+        {
+          "deptValue": 300,
+          "deptDate": "2023-09-05T09:20:37.068Z"
+        },
+        {
+          "deptValue": 1200,
+          "deptDate": "2023-09-05T09:20:48.725Z"
+        },
+        {
+          "deptValue": 300,
+          "deptDate": "2023-09-05T09:21:51.962Z"
+        },
+        {
+          "deptValue": 1000,
+          "deptDate": "2023-09-05T09:22:21.849Z"
+        },
+        {
+          "deptValue": 200,
+          "deptDate": "2023-09-05T09:22:50.110Z"
+        }
+      ]
+    },
+    {
+      "accountNumber": "1234567",
+      "mainDeptValue": 5000,
+      "deptValue": 0,
+      "dueDate": "2024-09-23T09:10:17.569Z",
+      "deptDepositProcess": [
+        {
+          "deptValue": 200,
+          "deptDate": "2023-09-23T09:10:23.062Z"
+        },
+        {
+          "deptValue": 4000,
+          "deptDate": "2023-09-23T09:11:45.603Z"
+        },
+        {
+          "deptValue": 800,
+          "deptDate": "2023-09-23T09:12:10.057Z"
+        }
+      ],
+      "id": 3
+    },
+    {
+      "accountNumber": "1234567",
+      "mainDeptValue": 2500,
+      "deptValue": 2500,
+      "dueDate": "2024-09-23T09:13:33.339Z",
+      "deptDepositProcess": [],
+      "id": 4
+    }
+  ]
+}

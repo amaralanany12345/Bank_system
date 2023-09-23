@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+</style>
+</head>
+<body>
+<h2>All dept</h2>
+<table>
+  <tr>
+    <th>Account Number</th>
+    <th>main Dept Value</th>
+    <th>remain Dept Value</th>
+    <th>Dept Deposit</th>
+    <th>Due Date</th>
+    <th>dept deposit process</th>
+  </tr>
+  <tr *ngFor="let item of dept">
+    <td>{{item.accountNumber}}</td>
+    <td>{{item.mainDeptValue}}</td>
+    <td>{{item.deptValue}}</td>
+    <td>{{item.deptDeposit}}</td>
+    <td>{{item.dueDate}}</td>
+    <td class="deptDepositProcess" *ngFor="let i of item.deptDepositProcess">
+      <h5>{{i.deptValue}}</h5>
+      <h5>{{i.deptDate}}</h5>
+    </td>
+    <h3 [hidden]="item.deptDeposit!=item.mainDeptValue">Deposit Process Is Completed</h3>
+  </tr>
+</table>
+<br/>
+</body>
+</html>
+
+
